@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    margin-right: -35px;
+    border-radius: 60px;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solid rgb(248,26,92);
+}
+.btn0{
+    height:40px ;
+    width: 40%;
+    border: none;
+    color: white;
+    background-color: rgb(248, 26, 92);
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url(img/462927.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50% ;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92) ;
+    color:white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.card:hover{
+    box-shadow: -1px -2px 24px -4px rgba(65, 64, 64, 0.75);
+        -webkit-box-shadow: -1px -2px 24px -4px rgba(98, 96, 96, 0.75);
+        -moz-box-shadow: -1px -2px 24px -4px rgba(110, 109, 109, 0.75);
+        transition: .5s;
+}
+.apple{
+    background: url(img/pexels-alex-green-5692293.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 46px;
+    width: 100px;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right:5px ;
+}
